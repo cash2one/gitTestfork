@@ -102,7 +102,7 @@ public:
 	bool			getCollectItemByPcateLevel(InfoMechineCollectTable_T & item, int pcate, int pframe, int level);	// 获取收集特定item
 	bool            getTidEqualGid(int tid, Props_T & result);     //获取tid和Gid相等的主分类和此分类值
 	bool            getResourceMechine_By_pacte_pfram_level(int pacte, int pframe, int level, ResourceMechineProductype_T & ResMechineInfo); //通过用户购买机器表的主分类、次分类、等级，查找能源机表对应的机器信息
-	bool            getUserResMechineCollect_By_Pid(UserResourceProducTable_list & userResCollectList, ResourceProducTable_T & userResCollect, int gid); 
+	bool            getUserResMechineCollect_By_Pid(UserResourceProducTable_list & userResCollectList, ResourceProducTable_T & userResCollect, int gid); //获取用户收集表信息
 	bool            ChangUserResMechineProduc(UserResourceProducTable_list & userresmechineproduc, ResourceProducTable_T & UserResMechineProduc); //更改用户资源机信息
 
 
