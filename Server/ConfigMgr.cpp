@@ -7,7 +7,7 @@
 #include "DBOperator.h"
 
 using namespace std;
-
+// init config
 ConfigMgr::ConfigMgr(void)
 {
     m_ServerID = 0;
