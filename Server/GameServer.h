@@ -95,7 +95,7 @@ public:
 	bool			ChangeUserInfoMechineCollect_By_Pid(UserInfoMechineCollectTable_list & userInfoCollectList, UserInfoMechineCollect_T & UserInfoCollect);
 	bool			getUserInfoMechineCollect_By_Pid(UserInfoMechineCollectTable_list & userInfoCollectList, UserInfoMechineCollect_T & UserInfoCollect, int gid);
 	bool			getUserMechine_By_Pid(UserBuyMechineTable_list & m_userMechineList, User_Experiment_Mechine_t & m_userMechine, int gid);
-	int				getNeedUserLevel(int instorLevel);
+	int				getNeedUserLevel(int instorLevel);//获取用户需要等级
 	bool			getInstorUplevelComsum(int instorLevel, InstrutorUpLevelTable_T & oneitem);
 	bool			getMechineUplevelComsum(int pcate, int pframe, int level, MechineUpLevelComsumTable_T & oneitem);
 	bool			getCollectTimeByCollItem(UserInfoMechineCollect_T & item, int level);							// 获取收集需要的时间
