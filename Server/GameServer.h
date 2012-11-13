@@ -97,7 +97,7 @@ public:
 	bool			getUserMechine_By_Pid(UserBuyMechineTable_list & m_userMechineList, User_Experiment_Mechine_t & m_userMechine, int gid);
 	int				getNeedUserLevel(int instorLevel);//获取用户需要等级
 	bool			getInstorUplevelComsum(int instorLevel, InstrutorUpLevelTable_T & oneitem);
-	bool			getMechineUplevelComsum(int pcate, int pframe, int level, MechineUpLevelComsumTable_T & oneitem);
+	bool			getMechineUplevelComsum(int pcate, int pframe, int level, MechineUpLevelComsumTable_T & oneitem);//获取用户等级消耗表
 	bool			getCollectTimeByCollItem(UserInfoMechineCollect_T & item, int level);							// 获取收集需要的时间
 	bool			getCollectItemByPcateLevel(InfoMechineCollectTable_T & item, int pcate, int pframe, int level);	// 获取收集特定item
 	bool            getTidEqualGid(int tid, Props_T & result);     //获取tid和Gid相等的主分类和此分类值
